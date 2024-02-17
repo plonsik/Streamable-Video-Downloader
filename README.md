@@ -34,9 +34,9 @@ Download the WebDriver for Chrome browser, which can be found here:
 1. Create a text file (default is `links.txt`) and populate it with Streamable links, one per line.
 2. Execute the script with:
 
-       python streamable_video_downloader.py
+       python main.py
 
-   If the script is located elsewhere, replace `streamable_video_downloader.py` with the correct path.
+   If the script is located elsewhere, replace `main.py` with the correct path.
 
 The script will process each link sequentially, providing updates on the download progress and saving the downloaded videos in the same directory as the script.
 
