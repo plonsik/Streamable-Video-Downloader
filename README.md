@@ -24,7 +24,7 @@ Install the necessary Python libraries by running the following command:
 #### WebDriver
 Download the WebDriver for Chrome browser, which can be found here:
 
-   https://googlechromelabs.github.io/chrome-for-testing/
+      https://googlechromelabs.github.io/chrome-for-testing/
 
 #### Configuration
 - Update the `WEBDRIVER_PATH` in the script to the location where your WebDriver is stored.
