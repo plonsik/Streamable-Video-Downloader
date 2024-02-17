@@ -12,8 +12,8 @@ To run this script, the following must be installed:
 
 - **Python 3.x**
 - **Selenium**
-- **Requests library**
-- **A WebDriver** compatible with your preferred browser (e.g., ChromeDriver for Google Chrome)
+- **Requests**
+- **A WebDriver for Chrome browser**
 
 ### Setup
 #### Install Python Dependencies
@@ -22,7 +22,9 @@ Install the necessary Python libraries by running the following command:
     pip install selenium requests
 
 #### WebDriver
-Download the WebDriver for your browser and ensure it's accessible in your system's PATH, or specify its path directly in the script. For Chrome users, ChromeDriver can be downloaded from its official site.
+Download the WebDriver for Chrome browser, which can be found here:
+
+   https://googlechromelabs.github.io/chrome-for-testing/
 
 #### Configuration
 - Update the `WEBDRIVER_PATH` in the script to the location where your WebDriver is stored.
